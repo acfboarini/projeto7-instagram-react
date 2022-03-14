@@ -1,0 +1,42 @@
+.post {
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.post > img {
+    width: 610px;
+}
+
+.conteudo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.conteudo1 .nome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo1 input {
+    width: 80%;
+    border: 0;    
+    height: 30px;
+}
+
+.conteudo1 .nome ion-icon {
+    margin-right: 20px;
+}
+
+ion-icon.like-comentario {
+    font-size: 17px;
+}
+
+.nome img {
+    width: 32px;
+    margin-right: 15px;
+}
